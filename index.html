@@ -1,535 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elite.com</title>
-    <!-- website-icon -->
+     <!-- website-icon -->
      <link rel="icon" type="image/png" href="../images/bird.jpg">
 
     <!-- font awesome cdn link -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-     <!-- swipper css link  -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="styles.css">
     
-     <!-- custom css file link -->
-      <link rel="stylesheet" href="style.css">
-
-      <!-- review icon link -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_forward" />
 </head>
+
 <body>
-    
-    <!-- header section start -->    
-    <section class="header">
-        <a href="#" class="logo">
-            <div style="display: flex; align-items: center;">
-                <img src="../images/bird.jpg" alt="Elite Logo" style="margin-right: 10px; height: 4rem; width: 5rem;" />
-                <span style="font-size: 2.5rem; color: #72BF78; display: block; font-weight: bold;">Elite</span>
-            </div>
-        </a>
-        <nav class="navbar">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#Experts">Experts</a>
-            <a href="#Fit">Fit Finder</a>
-            <a href="#study">Study Pathways</a>
-            <a href="#Login">Login</a>
-            <a href="#Reviews">Reviews</a>
-            <a href="#Contact">Contact</a>
-        </nav>
-        <div id="menu-btn" class="fas fa-bars"></div>
-    </section>
-    
-    <!-- Home section starts -->
-    <section class="home" id="home">
-        <div class="swiper home-slider">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide" style="background: url('../images/slide-2.jpg') no-repeat">
-                    <div class="content">
-                        <span>Explore, Learn, Achieve</span>
-                        <h3>Navigate the World of Skills</h3>
-                        <a href="study_track.php" class="btn">discover more</a>
-                    </div>
+    <div class="side-menu">
+        <div class="brand-name">
+            <!-- <a href="#" class="logo">
+                <div style="display: flex; align-items: center;">
+                    <img src="bird.jpg" alt="Elite Logo" style="margin-right: 10px; height: 4rem; width: 5rem;" />
+                    <span style="font-size: 2.5rem; color: #F2FFE9; display: block; font-weight: bold;">Elite</span>
                 </div>
-                <div class="swiper-slide" style="background: url('../images/slide-1.jpeg') no-repeat">
-                    <div class="content">
-                        <span>Discover, Create, Grow</span>
-                        <h3>Grow Your Knowledge Base</h3>
-                        <a href="study_track.php" class="btn">discover more</a>
-                    </div>
-                </div>
-                <div class="swiper-slide" style="background: url('../images/slide-3.jpg') no-repeat">
-                    <div class="content">
-                        <span>Dream, Build, Achieve</span>
-                        <h3>Craft Your Future Path</h3>
-                        <a href="study_track.php" class="btn">discover more</a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+            </a> -->
+            <h1>Elite</h1>
         </div>
-    </section>
-    
-    <!-- Home section ends -->
-
-    <!-- Services section starts -->
-
-<section class="services">
-    <h2 class="heading-title">Our Services</h2>
-    <div class="box-container">
-        <div class="box">
-            <img src="../images/course-icon.png" alt="">
-            <h3>courses</h3>
-        </div>
-        <div class="box">
-            <img src="../images/tutorial-icon.png" alt="">
-            <h3>tutorials</h3>
-        </div>
-        <div class="box">
-            <img src="../images/expert_talk.png" alt="">
-            <h3>Doubt Clearing</h3>
-        </div>
-        <div class="box">
-            <img src="../images/interest_test.png" alt="">
-            <h3>interest test</h3>
-        </div>
-        <div class="box">
-            <img src="../images/path.png" alt="">
-            <h3>Career Path</h3>
-        </div>
-        <div class="box">
-            <img src="../images/chat.png" alt="">
-            <h3>Chat Service</h3>
-        </div>
+        <ul>
+            <li><img src="dashboard (2).png" alt="">&nbsp; <span>Dashboard</span> </li>
+            <li><img src="reading-book (1).png" alt="">&nbsp;<span>Students</span> </li>
+            <li><img src="teacher2.png" alt="">&nbsp;<span>Counselors</span> </li>
+            <li><img src="school.png" alt="">&nbsp;<span>Courses</span> </li>
+            <li><img src="payment.png" alt="">&nbsp;<span>Payments</span> </li>
+            <li><img src="help-web-button.png" alt="">&nbsp; <span>Help</span></li>
+            <li><img src="settings.png" alt="">&nbsp;<span>Settings</span> </li>
+        </ul>
     </div>
-</section>
-    
-    <!-- Services section ends -->
-     <!-- Home about section starts -->
-<!-- extra -->
-     <!-- <div class="heading" style = "background:url('../images/6.jpg') no-repeat">
-        <h1>about us</h1>
-    </div> -->
-
-<section class="home-about" id="about">
-    <div class="image">
-        <img src="../images/logo.png" alt="" >
-    </div>
-    <div class="content">
-        <h3>about us</h3>
-<p>Welcome to Career Navigator, your personalized guide to finding the perfect career path based on your unique interests and aspirations. 
-    Whether you're passionate about technology, arts, sports, or any other field, our platform 
-    provides tailored career recommendations and a clear, step-by-step roadmap to help you achieve your dreams. Discover the most suitable 
-    educational paths, necessary skills, and opportunities, all in one place. Your future starts here!</p>
-<a href="about.php" class="btn">read more</a>
-    </div>
-</section>
-
-<!-- <section class="about">
-    <div class="image">
-        <img src="../images/logo.png" alt="">
-    </div>
-    <div class="content">
-        <h3>why choose us?</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-            Odit facere doloremque praesentium asperiores inventore ipsum quod animi? Officia animi ut, 
-            assumenda at delectus accusamus repellat.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-             Quo, dolorum aut? Quia consequatur debitis corrupti?</p>
-<div class="icons-container">
-    <div class="icons">
-        <i class="fas fa-map"></i>
-        <span>top destinations</span>
-    </div>
-    <div class="icons">
-        <i class="fas fa-hand-holding-usd"></i>
-        <span>top destinations</span>
-    </div>
-    <div class="icons">
-        <i class="fas fa-headset"></i>
-        <span>top destinations</span>
-    </div>
-</div>
-    </div>
-</section> -->
-     <!-- Home about section ends -->
-
-     <!-- Expert code starts -->
-     
-<section class="expert" id="Experts">
     <div class="container">
-        <div class="section-title">
-            <h1>Meet Our Experts</h1>
-            <p>Explore different career paths with the help of professionals</p>
+        <div class="header">
+            <div class="nav">
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <button type="submit"><img src="search.png" alt=""></button>
+                </div>
+                <div class="user">
+                    <a href="#" class="btn">Add New</a>
+                    <img src="notifications.png" alt="">
+                    <div class="img-case">
+                        <img src="user.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card-wrapper">
-            <ul class="card-list">
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <img src="../images/developer.jpg" alt="Developer Image" class="card-image">
-                        <h2 class="badge-developer">Developer</h2>
-                        <p class="card-title">Specialized in creating robust software applications</p>
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <img src="../images/marketer.jpg" alt="Marketer Image" class="card-image">
-                        <h2 class="badge-marketer">Marketer</h2>
-                        <p class="card-title">Expert in growing brands and engaging audiences</p>
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <img src="../images/modelling.jpeg" alt="Modeling Image" class="card-image">
-                        <h2 class="badge-model">Modeling</h2>
-                        <p class="card-title">Expert in fashion and runway modeling</p>
-                    </a>
-                </li>                
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <img src="../images/designer.jpg" alt="Designer Image" class="card-image">
-                        <h2 class="badge-designer">Designer</h2>
-                        <p class="card-title">Crafting visually stunning and user-friendly designs</p>
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <img src="../images/event.jpeg" alt="Editor Image" class="card-image">
-                        <h2 class="badge-event">Event Planner</h2>
-                        <p class="card-title">Expert in organizing and managing</p>
-                    </a>
-                </li>
-                <li class="card-item">
-                    <a href="#" class="card-link">
-                        <img src="../images/editor.jpg" alt="Editor Image" class="card-image">
-                        <h2 class="badge-editor">Editor</h2>
-                        <p class="card-title">Perfecting written content for various mediums</p>
-                    </a>
-                </li>
-            </ul>
+        <div class="content">
+            <div class="cards">
+                <div class="card">
+                    <div class="box">
+                        <h1>2194</h1>
+                        <h3>Students</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="students.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>53</h1>
+                        <h3>Counselors</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="teacher.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>5</h1>
+                        <h3>Courses</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="school (2).png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <h1>350000</h1>
+                        <h3>Payments</h3>
+                    </div>
+                    <div class="icon-case">
+                        <img src="income.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="content-2">
+                <div class="recent-payments">
+                    <div class="title">
+                        <h2>Recent Payments</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>School</th>
+                            <th>Amount</th>
+                            <th>Option</th>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>St. James College</td>
+                            <td>$120</td>
+                            <td><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>St. James College</td>
+                            <td>$120</td>
+                            <td><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>St. James College</td>
+                            <td>$120</td>
+                            <td><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>St. James College</td>
+                            <td>$120</td>
+                            <td><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>St. James College</td>
+                            <td>$120</td>
+                            <td><a href="#" class="btn">View</a></td>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>St. James College</td>
+                            <td>$120</td>
+                            <td><a href="#" class="btn">View</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="new-students">
+                    <div class="title">
+                        <h2>New Students</h2>
+                        <a href="#" class="btn">View All</a>
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Profile</th>
+                            <th>Name</th>
+                            <th>option</th>
+                        </tr>
+                        <tr>
+                            <td><img src="user.png" alt=""></td>
+                            <td>John Steve Doe</td>
+                            <td><img src="info.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="user.png" alt=""></td>
+                            <td>John Steve Doe</td>
+                            <td><img src="info.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="user.png" alt=""></td>
+                            <td>John Steve Doe</td>
+                            <td><img src="info.png" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="user.png" alt=""></td>
+                            <td>John Steve Doe</td>
+                            <td><img src="info.png" alt=""></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-
-
-     <!-- Expert code ends -->
-      <p>hi </p>
-
-      <!-- home study pathway section starts  -->
-
-<section class="home-study_track" id="study">
-    <h1 class="heading-title"> study pathways</h1>
-    <div class="box-container">
-        <div class="box">
-            <div class="image">
-                <img src="../images/1.png" alt="">
-            </div>
-            <div class="content">
-                <h3>adventures and tours</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ut nam similique ullam velit nisi!</p>
-                <a href="study_track.php" class="btn">Explore</a>
-            </div>
-        </div>
-        <div class="box">
-            <div class="image">
-                <img src="../images/2.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>adventures and tours</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ut nam similique ullam velit nisi!</p>
-                <a href="study_track.php" class="btn">Explore</a>
-            </div>
-        </div>
-        <div class="box">
-            <div class="image">
-                <img src="../images/3.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>adventures and tours</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ut nam similique ullam velit nisi!</p>
-                <a href="study_track.php" class="btn">Explore</a>
-            </div>
-        </div>
-    </div>
-    <div class="learn">
-            <a href="courses.php" class="btn">learn more</a>
-        </div>
-</section>
-      <!-- home study pathway section ends -->
-
-      <!-- home offer section starts  -->
-
-<section class="home-offer">
-    <div class="content">
-        <h3>upto 50% off</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, tempore enim! Fugit voluptate cumque quaerat.</p>
-        <a href="study_track.php" class="btn">Explore</a>
-    </div>
-</section>
-      <!-- home offer section ends  -->
-
-       <!-- Login Form starts -->
-
-       <!-- <div class="register-container">
-        <h2>Create an Account</h2>
-        <form action="register.php" method="POST">
-            <input type="text" name="fullname" placeholder="Full Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
-            <input type="submit" value="Register">
-        </form>
-        <p>Already have an account? <a href="login.php">Login Here</a></p>
-    </div>
-
-       <div class="login-container">
-        <h2>Login to Elite</h2>
-        <form action="login.php" method="POST">
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="submit" value="Login">
-        </form>
-        <p>Don't have an account? <a href="register.php">Register Here</a></p>
-    </div> -->
-
-    <section class="login-Register">
-        <div class="form-container">
-            <div class="button-group">
-                <button id="loginBtn" onclick="showLogin()">Login</button>
-                <button id="registerBtn" onclick="showRegister()">Register</button>
-            </div>
-            <div id="loginForm" class="form active">
-                <h2>Login</h2>
-                <form>
-                    <input type="text" placeholder="Username" required>
-                    <input type="password" placeholder="Password" required>
-                    <button type="submit">Login</button>
-                </form>
-            </div>
-            <div id="registerForm" class="form">
-                <h2>Register</h2>
-                <form>
-                    <input type="text" placeholder="Full Name" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="password" placeholder="Password" required>
-                    <button type="submit">Register</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-          <!-- <div class="container" id="signup">
-            <h1 class="form-title">Register</h1>
-            <form action="" method="post">
-                <div class="input-group">
-                  <i class="fas fa-user"></i>
-                  <input type="text" name="fName" id="fName" placeholder="First Name" required>
-                  <label for="fname">Firt Name</label>
-                </div>
-                <div class="input-group">
-                  <i class="fas fa-user"></i>
-                  <input type="text" name="lName" id="lName" placeholder="Last Name" required>
-                  <label for="fname">Last Name</label>
-                </div>
-                <div class="input-group">
-                  <i class="fas fa-envelope"></i>
-                  <input type="email" name="email" id="email" placeholder="Email" required>
-                  <label for="Email">Email</label>
-                </div>
-                <div class="input-group">
-                  <i class="fas fa-lock"></i>
-                  <input type="password" name="password" id="password" placeholder="Password" required>
-                  <label for="Password">Email</label>
-                </div>
-                <input type="submit" class="btn" value="Sign Up" name="signup">
-            </form>
-            <p class="or">
-                --------or-------
-            </p>
-            <div class="icons">
-                <i class="fab fa-google"></i>
-                <i class="fab fa-facebook"></i>
-            </div>
-            <div class="links">
-                <p>Already Have Account ?</p>
-                <button id="LogInButton">Log In</button>
-            </div>
-          </div> -->
-
-
-          <!-- <div class="container" id="Login">
-            <h1 class="form-title">Log In</h1>
-            <form action="" method="post">
-                <div class="input-group">
-                  <i class="fas fa-envelope"></i>
-                  <input type="email" name="email" id="email" placeholder="Email" required>
-                  <label for="Email">Email</label>
-                </div>
-                <div class="input-group">
-                  <i class="fas fa-lock"></i>
-                  <input type="password" name="password" id="password" placeholder="Password" required>
-                  <label for="Password">Email</label>
-                </div>
-                <p class="recover">
-                    <a href="#">Recover Password</a>
-                </p>
-                <input type="submit" class="btn" value="Log In" name="Login">
-            </form>
-            <p class="or">
-                --------or-------
-            </p>
-            <div class="icons">
-                <i class="fab fa-google"></i>
-                <i class="fab fa-facebook"></i>
-            </div>
-            <div class="links">
-                <p>Don't have account yet ?</p>
-                <button id="signUpButton">Sign Up</button>
-            </div>
-          </div> -->
-
-
-
-
-       <!-- Login Form ends -->
-    
-       <!-- review section starts -->
-
-       <section class="review" id="Reviews">
-        <div class="review-container">
-            <div class="review-slider">
-                <div class="slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, facilis!</p>
-                    <h3>Sima Kutemate</h3>
-                    <span>student</span>
-                    <img src="../images/1.png" alt="">
-                </div>
-                <div class="slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, facilis!</p>
-                    <h3>Sima Kutemate</h3>
-                    <span>student</span>
-                    <img src="../images/2.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, facilis!</p>
-                    <h3>Sima Kutemate</h3>
-                    <span>student</span>
-                    <img src="../images/2.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, facilis!</p>
-                    <h3>Sima Kutemate</h3>
-                    <span>student</span>
-                    <img src="../images/2.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, facilis!</p>
-                    <h3>Sima Kutemate</h3>
-                    <span>student</span>
-                    <img src="../images/2.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, facilis!</p>
-                    <h3>Sima Kutemate</h3>
-                    <span>student</span>
-                    <img src="../images/3.jpg" alt="">
-                </div>
-            </div>
-        </div>
-        
-    </section>
-
-       <!-- review section ends -->
-     
-    <!-- footer section starts -->
-<section class="footer" id="Contact">
-    <div class="box-container">
-        <div class="box">
-            <h3>quick links</h3>
-            <a href="home.php"><i class="fas fa-angle-right"></i> Home</a>
-            <a href="fit_finder.php"><i class="fas fa-angle-right"></i> Fit Finder</a>
-            <a href="study_track.php"><i class="fas fa-angle-right"></i> Study Pathways</a>
-            <a href="Login.php"><i class="fas fa-angle-right"></i> Login/Register</a>
-        </div>
-        <div class="box">
-            <h3>extra links</h3>
-            <a href="#"><i class="fas fa-angle-right"></i> ask questions</a>
-            <a href="#"><i class="fas fa-angle-right"></i> about us</a>
-            <a href="#"><i class="fas fa-angle-right"></i> privacy policy</a>
-            <a href="#"><i class="fas fa-angle-right"></i> terms of use</a>
-        </div>
-        <div class="box">
-            <h3>contact info</h3>
-            <a href="#"><i class="fas fa-phone"></i> +123-456-7890</a>
-            <a href="#"><i class="fas fa-phone"></i> +111-222-3333</a>
-            <a href="#"><i class="fas fa-envelope"></i> simakutemate@gmail.com</a>
-            <a href="#"><i class="fas fa-map"></i> amravati, india - 444701</a>
-        </div>
-        <div class="box">
-            <h3>follow us</h3>
-            <a href="#"><i class="fab fa-facebook"></i> facebook</a>
-            <a href="#"><i class="fab fa-twitter"></i>twitter</a>
-            <a href="#"><i class="fab fa-instagram"></i> instagram</a>
-            <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
-        </div>
-    </div>
-
-<div class="credit">created by <span>ms. web developer</span> | all rights reserved!</div>
-
-</section>
-
-    <!-- footer section ends -->
-     
-       <!-- swiper js link  -->
-       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-      
-    <!-- custom js file link  -->
-     <script src="script.js"></script>
-
 </body>
+
 </html>
