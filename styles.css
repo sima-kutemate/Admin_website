@@ -71,8 +71,44 @@ th,td {
     text-align: left;
     padding: 8px;
 }
-
+ 
+/* for side menu */
 .side-menu {
+    position: fixed;
+    background: var(--main-color);
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    list-style-type: none;
+}
+
+.side-menu .brand-name {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu li {
+    font-size: 24px;
+    padding: 10px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adding gap between list items */
+}
+
+.side-menu li:hover {
+    background: white;
+    color: var(--main-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* .side-menu {
     position: fixed;
     background: var(--main-color);
     width: 20vw;
@@ -100,7 +136,7 @@ th,td {
     background: white;
     color: var(--main-color);
     font-weight: bold;
-}
+} */
 
 .container {
     position: absolute;
