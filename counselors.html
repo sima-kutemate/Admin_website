@@ -69,45 +69,91 @@
                 </div>
             </div>
         </div>
-        <!-- for Dashboard -->
-        
-                <div class="new-students">
-                    <div class="title">
-                        <h2>New Students</h2>
-                        <a href="#" class="btn">View All</a>
-                    </div>
-                    <table>
-                        <tr>
-                            <th>Profile</th>
-                            <th>Name</th>
-                            <th>option</th>
-                        </tr>
-                        <tr>
-                            <td><img src="images/man.png" alt=""></td>
-                            <td>John Steve Doe</td>
-                            <td><img src="images/info.png" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/man.png" alt=""></td>
-                            <td>John Steve Doe</td>
-                            <td><img src="images/info.png" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/man.png" alt=""></td>
-                            <td>John Steve Doe</td>
-                            <td><img src="images/info.png" alt=""></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/man.png" alt=""></td>
-                            <td>John Steve Doe</td>
-                            <td><img src="images/info.png" alt=""></td>
-                        </tr>
+        <!-- for counsellor -->
+        <style>
+            .student-menu-container {
+                max-width: 800px;
+                margin: 100px auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
 
-                    </table>
-                </div>
-            </div>
+            .student-menu-container h2 {
+                color: #333;
+                margin-bottom: 20px;
+            }
+
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
+
+            table th,
+            table td {
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+
+            table th {
+                background-color: #88D66C;
+                color: #fff;
+            }
+
+            table tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            table tr:hover {
+                background-color: #f1f1f1;
+            }
+            .btn {
+background: var(--main-color);
+color: white;
+padding: 5px 10px;
+text-align: center;
+}
+
+.btn:hover {
+color: var(--main-color);
+background: white;
+padding: 3px 8px;
+border: 2px solid var(--main-color);
+} 
+        </style>
+        <div class="student-menu-container">
+            <h2>Counsellor List</h2>
+            <table>
+                <tr>
+                    <th>Profile</th>
+                    <th>Name</th>
+                    <th>Profession</th>
+                    <th>Option</th>
+                </tr>
+                <tr>
+                    <td><img src="images/girl.png" alt="Profile Image"></td>
+                    <td>John Doe</td>
+                    <td>Designer</td>
+                    <td><a href="#" class="btn">View</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/boy.png" alt="Profile Image"></td>
+                    <td>Jane Smith</td>
+                    <td>Developer</td>
+                    <td><a href="#" class="btn">View</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/boy.png" alt="Profile Image"></td>
+                    <td>Emily Johnson</td>
+                    <td>Teacher</td>
+                    <td><a href="#" class="btn">View</a></td>
+                </tr> <!-- Add more rows as needed -->
+            </table>
         </div>
-        <!-- for student -->
+
 
     </div>
 
