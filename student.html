@@ -23,9 +23,9 @@
             <h1>Elite</h1>
         </div>
         <ul>
-
             <li onclick="navigateTo('index.html')"><img src="images/dashboard (2).png" alt="">&nbsp;
-                <span>Dashboard</span> </li>
+                <span>Dashboard</span>
+            </li>
             <li onclick="navigateTo('student.html')"><img src="images/reading-book (1).png"
                     alt="">&nbsp;<span>Students</span> </li>
             <li onclick="navigateTo('counselors.html')"><img src="images/teacher2.png"
@@ -40,18 +40,6 @@
             </li>
             <li onclick="navigateTo('settings.html')"><img src="images/settings.png" alt="">&nbsp;<span>Settings</span>
             </li>
-
-            <!-- <li><img src="dashboard (2).png" alt="">&nbsp; <span>Dashboard</span> </li>
-            <li><img src="reading-book (1).png" alt="">&nbsp;<span>Students</span> </li>
-            <li><img src="teacher2.png" alt="">&nbsp;<span>Counselors</span> </li>
-            <li><img src="school.png" alt="">&nbsp;<span>Courses</span> </li>
-            <li><img src="payment.png" alt="">&nbsp;<span>Payments</span> </li>
-            <li><img src="user.png" alt="">&nbsp;<span>Profile</span> </li>
-              <a href="login.html">
-            <li><img src="logout.png" alt="">&nbsp;<span>Log Out</span> </li>
-             </a>
-            <li><img src="help-web-button.png" alt="">&nbsp; <span>Help</span></li>
-            <li><img src="settings.png" alt="">&nbsp;<span>Settings</span> </li> -->
         </ul>
     </div>
     <div class="container">
@@ -70,108 +58,110 @@
                 </div>
             </div>
         </div>
-                <!-- for student -->
-                <style>
-                    .student-menu-container {
-                        max-width: 800px;
-                        margin: 100px auto;
-                        padding: 20px;
-                        background-color: #fff;
-                        border-radius: 8px;
-                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                    }
+        <!-- for student -->
+        <style>
+            .student-menu-container {
+                max-width: 800px;
+                margin: 100px auto;
+                padding: 20px;
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
 
-                    .student-menu-container h2 {
-                        color: #333;
-                        margin-bottom: 20px;
-                    }
+            .student-menu-container h2 {
+                color: #333;
+                margin-bottom: 20px;
+            }
 
-                    table {
-                        width: 100%;
-                        border-collapse: collapse;
-                        margin-bottom: 20px;
-                    }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-bottom: 20px;
+            }
 
-                    table th,
-                    table td {
-                        padding: 10px;
-                        text-align: left;
-                        border-bottom: 1px solid #ddd;
-                    }
+            table th,
+            table td {
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
 
-                    table th {
-                        background-color: #88D66C;
-                        color: #fff;
-                    }
+            table th {
+                background-color: #88D66C;
+                color: #fff;
+            }
 
-                    table tr:nth-child(even) {
-                        background-color: #f9f9f9;
-                    }
+            table tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
 
-                    table tr:hover {
-                        background-color: #f1f1f1;
-                    }
-                    .btn {
-    background: var(--main-color);
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    margin-left: 10px;
-}
+            table tr:hover {
+                background-color: #f1f1f1;
+            }
 
-.btn:hover {
-    color: var(--main-color);
-    background: white;
-    padding: 3px 8px;
-    border: 2px solid var(--main-color);
- } 
-                    .btn1 {
-    background: #FF748B;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    margin-left: 10px;
-}
+            .btn {
+                background: var(--main-color);
+                color: white;
+                padding: 5px 10px;
+                text-align: center;
+                margin-left: 10px;
+            }
 
-.btn1:hover {
-    color: #FF748B;
-    background: white;
-    padding: 3px 8px;
-    border: 2px solid #FF748B;
- } 
-                </style>
-                <div class="student-menu-container">
-                    <h2>Student List</h2>
-                    <table>
-                        <tr>
-                            <th>Profile</th>
-                            <th>Name</th>
-                            <th>Class</th>
-                            <th>Option</th>
-                        </tr>
-                        <tr>
-                            <td><img src="images/girl.png" alt="Profile Image"></td>
-                            <td>John Doe</td>
-                            <td>10th Grade</td>
-                            <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/boy.png" alt="Profile Image"></td>
-                            <td>Jane Smith</td>
-                            <td>11th Grade</td>
-                            <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/boy.png" alt="Profile Image"></td>
-                            <td>Emily Johnson</td>
-                            <td>12th Grade</td>
-                            <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
-                        </tr> <!-- Add more rows as needed -->
-                    </table>
-                </div>
+            .btn:hover {
+                color: var(--main-color);
+                background: white;
+                padding: 3px 8px;
+                border: 2px solid var(--main-color);
+            }
 
-                <!-- custom js file link  -->
-                <script src="script.js"></script>
+            .btn1 {
+                background: #FF748B;
+                color: white;
+                padding: 5px 10px;
+                text-align: center;
+                margin-left: 10px;
+            }
+
+            .btn1:hover {
+                color: #FF748B;
+                background: white;
+                padding: 3px 8px;
+                border: 2px solid #FF748B;
+            }
+        </style>
+        <div class="student-menu-container">
+            <h2>Student List</h2>
+            <table>
+                <tr>
+                    <th>Profile</th>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th>Option</th>
+                </tr>
+                <tr>
+                    <td><img src="images/girl.png" alt="Profile Image"></td>
+                    <td>John Doe</td>
+                    <td>10th Grade</td>
+                    <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/boy.png" alt="Profile Image"></td>
+                    <td>Jane Smith</td>
+                    <td>11th Grade</td>
+                    <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/boy.png" alt="Profile Image"></td>
+                    <td>Emily Johnson</td>
+                    <td>12th Grade</td>
+                    <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
+                </tr> <!-- Add more rows as needed -->
+            </table>
+        </div>
+
+        <!-- custom js file link  -->
+        <script src="script.js"></script>
 </body>
 
 </html>

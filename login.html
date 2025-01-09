@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- website-icon -->
-     <link rel="icon" type="image/png" href="../images/bird.jpg">
+    <!-- website-icon -->
+    <link rel="icon" type="image/png" href="../images/bird.jpg">
     <title>Admin Login & Signup</title>
     <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
     <div class="container">
         <div class="form-container">
@@ -29,7 +31,8 @@
                     <input type="text" id="new-username" name="username" placeholder="Username" required>
                     <input type="email" id="email" name="email" placeholder="Email" required>
                     <input type="password" id="new-password" name="password" placeholder="Password" required>
-                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password"
+                        required>
                     <button type="submit" class="btn">Sign Up</button>
                     <p>Already have an account? <a href="javascript:void(0)" onclick="showLogin()">Login</a></p>
                 </form>
@@ -48,16 +51,17 @@
             document.getElementById('signup-form').style.display = 'none';
         }
         // function handleLogin(event) { event.preventDefault(); 
-        //     // Prevent form submission 
-        //     // Here you can add your logic to validate credentials 
-        //     // For demonstration, let's assume the login is always successful 
-        //     const username = document.getElementById('username').value; 
-        //     const password = document.getElementById('password').value; 
-        //     if (username && password) { 
-        //         // Redirect to index.html upon successful login 
-        //         window.location.href = 'index.html'; } 
-        //         else { alert('Please enter valid credentials.'); } 
+        //     // Prevent form submission
+        //     // Here you can add your logic to validate credentials
+        //     // For demonstration, let's assume the login is always successful
+        //     const username = document.getElementById('username').value;
+        //     const password = document.getElementById('password').value;
+        //     if (username && password) {
+        //         // Redirect to index.html upon successful login
+        //         window.location.href = 'index.html'; }
+        //         else { alert('Please enter valid credentials.'); }
         //     }
     </script>
 </body>
+
 </html>
