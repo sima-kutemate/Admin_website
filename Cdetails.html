@@ -62,7 +62,7 @@
                     <button type="submit"><img src="images/search.png" alt=""></button>
                 </div>
                 <div class="user">
-                    <a href="stdetails.html" class="btn">Add New</a>
+                    <a href="#" class="btn">Add New</a>
                     <img src="images/notifications.png" alt="">
                     <div class="img-case">
                         <img src="images/man.png" alt="">
@@ -70,105 +70,84 @@
                 </div>
             </div>
         </div>
-                <!-- for student -->
+                <!-- for new add student  -->
                 <style>
-                    .student-menu-container {
-                        max-width: 800px;
+                    .profile-edit-container {
+                        max-width: 600px;
                         margin: 100px auto;
                         padding: 20px;
                         background-color: #fff;
                         border-radius: 8px;
                         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
                     }
-
-                    .student-menu-container h2 {
+        
+                    .profile-edit-container h2 {
                         color: #333;
                         margin-bottom: 20px;
                     }
-
-                    table {
+        
+                    .form-group {
+                        margin-bottom: 15px;
+                    }
+        
+                    .form-group label {
+                        display: block;
+                        color: #333;
+                        margin-bottom: 5px;
+                    }
+        
+                    .form-group input,
+                    .form-group textarea {
                         width: 100%;
-                        border-collapse: collapse;
-                        margin-bottom: 20px;
-                    }
-
-                    table th,
-                    table td {
                         padding: 10px;
-                        text-align: left;
-                        border-bottom: 1px solid #ddd;
-                    }
-
-                    table th {
-                        background-color: #88D66C;
-                        color: #fff;
-                    }
-
-                    table tr:nth-child(even) {
+                        border: 1px solid #ddd;
+                        border-radius: 4px;
                         background-color: #f9f9f9;
                     }
-
-                    table tr:hover {
-                        background-color: #f1f1f1;
+        
+                    .form-group input:focus,
+                    .form-group textarea:focus {
+                        border-color: #88D66C;
                     }
-                    .btn {
-    background: var(--main-color);
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    margin-left: 10px;
-}
-
-.btn:hover {
-    color: var(--main-color);
-    background: white;
-    padding: 3px 8px;
-    border: 2px solid var(--main-color);
- } 
-                    .btn1 {
-    background: #FF748B;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    margin-left: 10px;
-}
-
-.btn1:hover {
-    color: #FF748B;
-    background: white;
-    padding: 3px 8px;
-    border: 2px solid #FF748B;
- } 
+        
+                    .btn-save {
+                        display: inline-block;
+                        padding: 10px 20px;
+                        border: none;
+                        border-radius: 4px;
+                        background-color: #88D66C;
+                        color: #fff;
+                        cursor: pointer;
+                        transition: background-color 0.3s ease;
+                    }
+        
+                    .btn-save:hover {
+                        background-color: #76C155;
+                    }
                 </style>
-                <div class="student-menu-container">
-                    <h2>Student List</h2>
-                    <table>
-                        <tr>
-                            <th>Profile</th>
-                            <th>Name</th>
-                            <th>Class</th>
-                            <th>Option</th>
-                        </tr>
-                        <tr>
-                            <td><img src="images/girl.png" alt="Profile Image"></td>
-                            <td>John Doe</td>
-                            <td>10th Grade</td>
-                            <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/boy.png" alt="Profile Image"></td>
-                            <td>Jane Smith</td>
-                            <td>11th Grade</td>
-                            <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
-                        </tr>
-                        <tr>
-                            <td><img src="images/boy.png" alt="Profile Image"></td>
-                            <td>Emily Johnson</td>
-                            <td>12th Grade</td>
-                            <td><a href="#" class="btn">View</a><a href="#" class="btn1">Delete</a></td>
-                        </tr> <!-- Add more rows as needed -->
-                    </table>
+                <div class="profile-edit-container">
+                    <h2>Add Student</h2>
+                    <form action="#">
+                        <!-- <div class="form-group"> <label for="profile-picture">Profile Picture</label> <input type="file"
+                                id="profile-picture" name="profile-picture"> </div> -->
+                        <div class="form-group"> <label for="full-name">Full Name</label> <input type="text" id="full-name"
+                                name="full-name" placeholder="Enter full name"> </div>
+                        <div class="form-group"> <label for="full-name">Profession</label> <input type="text" id="full-name"
+                                name="full-name" placeholder="Enter full name"> </div>
+                        <div class="form-group"> <label for="email">Email</label> <input type="email" id="email" name="email"
+                                placeholder="Enter email"> </div>
+                        <div class="form-group"> <label for="phone">Phone Number</label> <input type="tel" id="phone"
+                                name="phone" placeholder="Enter phone number"> </div>
+                        <!-- <div class="form-group"> <label for="address">Address</label> <textarea id="address" name="address"
+                                rows="4" placeholder="Enter address"></textarea> </div> -->
+                        <!-- <div class="form-group"> <label for="password">Password</label> <input type="password" id="password"
+                                name="password" placeholder="Enter new password"> </div>
+                        <div class="form-group"> <label for="confirm-password">Confirm Password</label> <input type="password"
+                                id="confirm-password" name="confirm-password" placeholder="Confirm new password"> </div>  -->
+                                <button type="submit" class="btn-save">Save Changes</button>
+                    </form>
                 </div>
+        
 
                 <!-- custom js file link  -->
                 <script src="script.js"></script>
